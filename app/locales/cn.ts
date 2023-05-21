@@ -22,7 +22,7 @@ const cn = {
     Rename: "重命名对话",
     Typing: "正在输入…",
     Input: (submitKey: string) => {
-      var inputHints = `算法社团AI为你服务。${submitKey} 发送`;
+      var inputHints = `亲爱的萌萌小姐，请问有何吩咐？${submitKey} 发送`;
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
@@ -154,7 +154,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "算法社团AI随时为您服务",
+    BotHello: "随时为萌萌小姐服务",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
